@@ -1,0 +1,621 @@
+:root {
+  --width: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 1740px;
+  padding: 0 20px;
+}
+
+/* Header sections */
+
+.header {
+  background-image: url(../img/Background.svg);
+  background-size: cover;
+}
+.header__header {
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+}
+.header__menu {
+  max-width: 390px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__link {
+  font-family: "SF Pro Display";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.header__button {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 8px 32px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+.header__wraper {
+  padding: 92px 0 280px 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.header__content {
+  max-width: 810px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+}
+.header__title {
+  font-family: "American Captain";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130px;
+  line-height: 130px;
+
+  color: #ffffff;
+}
+.header__undertitle {
+  max-width: 320px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+.header__button-content {
+  display: flex;
+  align-items: center;
+  max-width: 190px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 8px 32px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+
+/* Header sections */
+
+/* About sections */
+
+.about {
+  padding: 60px 0;
+  background-color: #161616;
+}
+.about__title {
+  font-family: "American Captain";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130px;
+  line-height: 130px;
+  text-align: center;
+
+  color: #ffffff;
+  padding-bottom: 95px;
+}
+.about__wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__about-text {
+  max-width: 785px;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.about__img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* About sections */
+
+/* Event sections */
+
+.event {
+  background-color: #1a191a;
+  position: relative;
+  padding: 90px 0 115px 0;
+}
+/* .event::after {
+  content: url(../img/event__Lines.svg);
+  position: absolute;
+  top: -10%;
+  left: -7%;
+  width: 302.25px;
+  height: 298px;
+  transform: rotate(-179.21deg);
+}
+.event::before {
+  content: url(../img/event__Lines.svg);
+  position: absolute;
+  bottom: -10%;
+  right: -7%;
+  width: 302.25px;
+  height: 298px;
+} */
+.event__title {
+  font-family: "American Captain";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 110px;
+  margin: auto;
+  text-align: center;
+  max-width: 1284px;
+  color: #ffffff;
+}
+.event__undertitle {
+  padding: 40px 0 160px 0;
+  max-width: 845px;
+  margin: auto;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.event__cards-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.event__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 430px;
+  width: 100%;
+  border-radius: 16px;
+  padding: 191px 0 35px 0;
+  position: relative;
+}
+.event__card:nth-child(1) {
+  background: rgba(0, 221, 168, 0.5);
+}
+.event__card:nth-child(2) {
+  background: rgba(207, 41, 41, 0.6);
+  padding: 191px 0 55px 0;
+}
+.event__card:nth-child(3) {
+  background: rgba(0, 88, 221, 0.6);
+  padding: 191px 0 55px 0;
+}
+.event__card-img {
+  position: absolute;
+  top: -20%;
+  object-fit: cover;
+}
+.event__card-title {
+  max-width: 362px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px 0;
+  color: #ffffff;
+}
+.event__card-undertitle {
+  max-width: 340px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* Event sections */
+
+/* Cars Sections */
+
+.cars {
+  background-color: #161616;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.cars__title {
+  font-family: "American Captain";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 110px;
+
+  color: #ffffff;
+}
+.cars__undertitle {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.cars_wraper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1740px;
+  overflow-x: hidden;
+  margin: auto;
+}
+.cars__line {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: max-content;
+  flex-grow: 1;
+}
+.cars__line:nth-last-child(1) {
+  top: 0;
+}
+.cars__line:nth-last-child(2) {
+  bottom: 0;
+}
+.cars__items {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 270px;
+  position: relative;
+  text-align: center;
+}
+.cars__items-img {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.cars__content {
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+}
+.cars__items:hover .cars__content {
+  opacity: 0.8;
+}
+.cars__items-title {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #ffffff;
+}
+.cars__items-undertitle {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 10px 0 28px 0;
+  color: #ffffff;
+}
+.cars__items-button {
+  padding: 8px 28px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+/* Cars Sections */
+
+/* Video Sections */
+
+.video {
+  padding: 100px 0;
+  background-color: #1a191a;
+  position: relative;
+  z-index: -2;
+  overflow: hidden;
+}
+.video__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.video__title {
+  max-width: 700px;
+
+  font-family: "American Captain";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130px;
+  line-height: 130px;
+
+  color: #ffffff;
+}
+.video__undertitle {
+  max-width: 417px;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #ffffff;
+}
+.video__video {
+  height: 820px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-image: url(../img/video__bg.svg);
+  background-size: cover;
+  position: relative;
+}
+.video__video::after {
+  content: url(../img/Star-1.svg);
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(40%) translateX(40%);
+}
+.video__video::before {
+  content: url(../img/Star-2.svg);
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translateY(-75%) translateX(-30%);
+}
+.video__play {
+}
+
+/* Video Sections */
+
+/* Contact Sections */
+
+.contact {
+  background-color: #161616;
+  padding: 115px 0;
+}
+.contact__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__text {
+  max-width: 660px;
+}
+.contact__title {
+  font-family: "American Captain";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 120px;
+
+  color: #ffffff;
+}
+.contact__undertitle {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30.08px;
+  line-height: 50px;
+  /* or 166% */
+
+  color: #ffffff;
+}
+.contact__input-wraper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contact__line {
+  display: flex;
+  justify-content: space-between;
+  max-width: 630px;
+  width: 100%;
+}
+#name {
+  width: 49%;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #161616;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #f2f2f2;
+}
+#email {
+  width: 49%;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #161616;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #f2f2f2;
+}
+#num {
+  width: 49%;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #161616;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #f2f2f2;
+}
+#country {
+  width: 49%;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #161616;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #f2f2f2;
+}
+#message {
+  max-width: 630px;
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #161616;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #f2f2f2;
+}
+.contact__button {
+  max-width: 160px;
+  padding: 8px 41px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  background-color: #161616;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+/* Contact Sections */
+
+/* Map Sections */
+
+.map_map {
+  height: 380px;
+  width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Map Sections */
+
+/* Footer */
+
+.footer {
+  padding: 60px 0;
+  background-color: #161616;
+}
+.footer__wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer__logo {
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 209px;
+}
+.footer__content-title {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 32px;
+  letter-spacing: -0.019em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.footer__content-link {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 11px;
+  color: #bdbdbd;
+  mix-blend-mode: normal;
+}
+.footer__content-email {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 11px;
+  color: #bdbdbd;
+  mix-blend-mode: normal;
+}
+.footer__content-number {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 11px;
+  color: #bdbdbd;
+  mix-blend-mode: normal;
+}
+.footer__content-social-wraper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 125px;
+}
+.footer__content-social-img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Footer */
